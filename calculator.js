@@ -44,8 +44,8 @@ function Calculate(event) {
             function throwgumball (gumball) {
                 let throwgumball = document.body.appendChild(gumball);
                 for (let i = 0; i < 100; i++) {
-                    gumball.style.width += `${i}px`;
-                    gumball.style.height += `${i}px`;
+                    throwgumball.style.width += `${i}px`;
+                    throwgumball.style.height += `${i}px`;
                 }
             }
             for (let i = 0; i < gumballs; i++) {
