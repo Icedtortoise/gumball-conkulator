@@ -31,7 +31,9 @@ function Calculate(event) {
             result.innerText = "ruh roh raggy"
             for (let i = 0; i < money; i++) {
                 const x = Math.floor((Math.random() * screen.width) + 1);
+                console.log(x);
                 const y = Math.floor((Math.random() * screen.height) + 1);
+                console.log(y);
                 const quarter = document.createElement("img");
                 quarter.style.position = "absolute";
                 quarter.style.top = `${y}px`;
