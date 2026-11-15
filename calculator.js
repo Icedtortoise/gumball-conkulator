@@ -40,6 +40,7 @@ function Calculate(event) {
                 quarter.style.left = `${x}px`;
                 quarter.setAttribute("src", "./images/quarter.png");
             }
+            console.log("end of loop");
             break;
     }
 }
