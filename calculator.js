@@ -29,7 +29,7 @@ function Calculate(event) {
             console.log(gumballs);
             console.log(money);
             result.innerText = "ruh roh raggy"
-            for (let i = 0; i < money; i++) {
+            for (let i = 0; i < 7; i++) {
                 const x = Math.floor((Math.random() * screen.width) + 1);
                 console.log(x);
                 const y = Math.floor((Math.random() * screen.height) + 1);
