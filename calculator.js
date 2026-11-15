@@ -41,6 +41,27 @@ function Calculate(event) {
                 quarter.setAttribute("src", "./images/quarter.png");
                 document.body.appendChild(quarter);
             }
+            function throwgumball (gumball) {
+                let throwgumball = document.body.appendChild(gumball);
+                for (let i = 0; i < 100; i++) {
+                    gumball.style.width += `${i}px`;
+                    gumball.style.height += `${i}px`;
+                }
+            }
+            for (let i = 0; i < gumballs; i++) {
+                const x = screen.width;
+                console.log(x);
+                const y = screen.height;
+                console.log(y);
+                const gumball = document.createElement("img");
+                const color = Math.floor((Math.random() * 5) + 1);
+                gumball.style.position = "absolute";
+                gumball.style.top = `${y}px`;
+                gumball.style.left = `${x}px`;
+                gumball.setAttribute("src", `./images/gumball${color}.png`);
+                throwgumball(gumball);
+            }
+            
             break;
     }
 }
