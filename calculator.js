@@ -29,6 +29,7 @@ function Calculate(event) {
             console.log(gumballs);
             console.log(money);
             result.innerText = "ruh roh raggy"
+            console.log("are these commits sending");
             for (let i = 0; i < 7; i++) {
                 const x = Math.floor((Math.random() * screen.width) + 1);
                 console.log(x);
