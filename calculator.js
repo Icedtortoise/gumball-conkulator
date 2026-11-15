@@ -29,8 +29,7 @@ function Calculate(event) {
             console.log(gumballs);
             console.log(money);
             result.innerText = "ruh roh raggy"
-            console.log("are these commits sending");
-            for (let i = 0; i < 7; i++) {
+            for (let i = 0; i < money; i++) {
                 const x = Math.floor((Math.random() * screen.width) + 1);
                 console.log(x);
                 const y = Math.floor((Math.random() * screen.height) + 1);
@@ -40,8 +39,8 @@ function Calculate(event) {
                 quarter.style.top = `${y}px`;
                 quarter.style.left = `${x}px`;
                 quarter.setAttribute("src", "./images/quarter.png");
+                document.body.appendChild(quarter);
             }
-            console.log("end of loop");
             break;
     }
 }
