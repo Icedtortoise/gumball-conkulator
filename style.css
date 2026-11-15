@@ -3,14 +3,12 @@ body {
     text-align: center;
 }
 
-.kablammo-font, input {
-  font-family: "Kablammo", system-ui;
-  font-optical-sizing: auto;
+.rubik-spray-paint-regular, input {
+  font-family: "Rubik Spray Paint", system-ui;
   font-weight: 400;
   font-style: normal;
-  font-variation-settings:
-    "MORF" 0;
 }
+
 
 input[type="radio"] {
     color: #f99; 
